@@ -24,7 +24,3 @@ A lightweight browser extension to easily escape, unescape, and convert JSON and
 2. Go to your browser's extensions page (e.g., `chrome://extensions/`).
 3. Enable "Developer mode".
 4. Click "Load unpacked" and select this project folder.
-
-## License
-
-MIT 
