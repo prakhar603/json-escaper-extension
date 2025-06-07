@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JSON Escaper</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <textarea id="inputBox" placeholder="Enter JSON here..."></textarea>
+    <div class="buttons">
+      <button id="escapeBtn">Escape JSON</button>
+      <button id="unescapeBtn">Unescape JSON</button>
+      <button id="protoToJsonBtn">Proto to JSON</button>
+    </div>
+    <label class="checkbox-row">
+      <input type="checkbox" id="compactCheckbox">
+      Remove whitespaces
+    </label>
+    <textarea id="outputBox" placeholder="Result will appear here..." readonly></textarea>
+    <button id="copyBtn">Copy to Clipboard</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
